@@ -1,3 +1,22 @@
+/*
+ * 
+ * main.rs
+ *
+ * Main module 
+ *
+*/
+
+
+mod board;
+
+
+
+
+
 fn main() {
-    println!("Hello, world!");
+    let mut chessboard : board::Board;
+    for i in 0..8 {
+        print!("");
+    }
+    println!("White: \u{2654}\nBlack: \u{265A}");
 }
