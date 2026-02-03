@@ -14,9 +14,7 @@ mod board;
 
 
 fn main() {
-    let mut chessboard : board::Board;
-    for i in 0..8 {
-        print!("");
-    }
+    let mut chessboard : board::Board = board::Board::new();
     println!("White: \u{2654}\nBlack: \u{265A}");
+    chessboard.print_board();
 }
